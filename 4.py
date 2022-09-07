@@ -28,18 +28,26 @@ btn=Button(formulario,text="Count Up",command=sumar)
 btn.grid(column=3,row=1)
 
 def restar():
+    """
+    Toma la variable global cont, le resta 1, y luego establece la variable global c a la versión de cadena de cont
+    """
     global c,cont
     cont=cont-1
     c.set(str(cont))
 
+# Crea un botón con el texto "Count Down" y colócalo en la cuarta columna y primera fila.
 btn2=Button(formulario,text="Count Down",command=restar)
 btn2.grid(column=4,row=1)
 
 def reset():
+    """
+    Establece la variable global cont a 0 y luego establece el texto de la etiqueta a la versión de cadena de cont.
+    """
     global c,cont
     cont=0
     c.set(str(cont))
 
+# Crea un botón con el texto "Reset" y colócalo en la quinta columna y primera fila.
 btn3=Button(formulario,text="Reset",command=reset)
 btn3.grid(column=5,row=1)
 
