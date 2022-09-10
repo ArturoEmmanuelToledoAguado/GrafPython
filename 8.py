@@ -11,6 +11,10 @@ r=StringVar()
 opcion=IntVar()
 
 def selec():
+    """
+    Toma los dos números de las casillas de entrada y, en función de la opción seleccionada, realiza
+    realiza la operación y establece el resultado en la etiqueta.
+    """
     global res,r
     _num1=int(ent1.get())
     _num2=int(ent2.get())
@@ -32,15 +36,19 @@ def selec():
 lb1=Label(formulario,text="Operaciones")
 lb1.grid(row=1,column=3)
 
+# Crea un botón de radio con el texto "Sumar" y establece la variable opcion a 1.
 rbtn1=Radiobutton(formulario,text="Sumar",variable=opcion,value=1)
 rbtn1.grid(row=2,column=3)
 
+# Crea un botón de radio con el texto "Restar" y establece la variable opcion a 2.
 rbtn2=Radiobutton(formulario,text="Restar",variable=opcion,value=2)
 rbtn2.grid(row=3,column=3)
 
+# Crea un botón de radio con el texto "Multiplicar" y establece la variable opcion a 3.
 rbtn3=Radiobutton(formulario,text="Multiplicar",variable=opcion,value=3)
 rbtn3.grid(row=4,column=3)
 
+# Crea un botón de radio con el texto "Dividir" y establece la variable opcion a 4.
 rbtn4=Radiobutton(formulario,text="Dividir",variable=opcion,value=4)
 rbtn4.grid(row=5,column=3)
 
