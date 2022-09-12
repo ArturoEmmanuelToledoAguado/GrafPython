@@ -26,7 +26,7 @@ button1.pack()
 root.mainloop() 
 </code></pre>
 
-![imagenesjpg](/IMG/1.png)
+![imagenesjpg](IMG/1.png)
 
 ## Ejercicio 2
 Escribir una aplicación GUI (llamada ContDecreciente) como la que se ve en la figura. Cada ves que se haga clic en el botón "-", al valor de contador se le resta 1.
