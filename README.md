@@ -25,8 +25,7 @@ button1 = Button(root, text='+', width=25, command=sumar)
 button1.pack()
 root.mainloop() 
 </code></pre>
-
-![imagenesjpg](IMG/1.PNG)
+![1](IMG/1.PNG)
 
 ## Ejercicio 2
 Escribir una aplicación GUI (llamada ContDecreciente) como la que se ve en la figura. Cada ves que se haga clic en el botón "-", al valor de contador se le resta 1.
@@ -53,7 +52,7 @@ button1.pack()
 root.mainloop() 
 </code></pre>
 
-![imagenesjpg](/IMG/2.PNG)
+![2](IMG/2.PNG)
 
 ## Ejercicio 3
 Escribir una aplicación GUI (llamada Factorial) como la que se ve en la
@@ -117,7 +116,7 @@ btn.grid(column=5,row=1)
 formulario.mainloop()
 </code></pre>
 
-![imagenesjpg](/IMG/3.PNG)
+![3](IMG/3.PNG)
 
 ## Ejercicio 4
 Escribir una aplicación GUI (llamada Contador) como la que se ve en la
@@ -181,7 +180,7 @@ btn3.grid(column=5,row=1)
 formulario.mainloop()
 </code></pre>
 
-![imagenesjpg](/IMG/4.PNG)
+![4](IMG/4.PNG)
 
 ## Ejercicio 5
 Escribir una aplicación GUI (llamada Calculadora) que funcione como
@@ -311,7 +310,7 @@ btn6.grid(column=2,row=6)
 formulario.mainloop()
 </code></pre>
 
-![imagenesjpg](/IMG/5.PNG)
+![5](IMG/5.PNG)
 
 ## Ejercicio 6
 Escribir una aplicación GUI (llamada Películas). Su función será: al pulsar el botón Añadir, agregará en el listWidget el contenido de lineEdit (Películas).
@@ -365,7 +364,7 @@ libx.grid(row=5,column=4)
 formulario.mainloop()
 </code></pre>
 
-![imagenesjpg](/IMG/6.PNG)
+![6](IMG/6.PNG)
 
 ## Ejercicio 7
 Escribir una aplicación GUI (llamada Generador de números). Su función será: al pulsar el botón Generar, generará un número aleatorio en el rango de los dos Spin Box.
@@ -426,7 +425,7 @@ btn.grid(column=1,row=4)
 formulario.mainloop()
 </code></pre>
 
-![imagenesjpg](/IMG/7.PNG)
+![7](IMG/7.PNG)
 
 ## Ejercicio 8
 Escribir una aplicación GUI (llamada Calculadora 2) como la que se ve en la figura y que funcione como una calculadora.
@@ -518,6 +517,6 @@ btn1.grid(row=6,column=2)
 formulario.mainloop()
 </code></pre>
 
-![imagenesjpg](/IMG/8.PNG)
+![8](IMG/8.PNG)
 
 <a href="https://github.com/ArturoEmmanuelToledoAguado/GrafPython">Código</a>
